@@ -1,0 +1,32 @@
+[
+  {
+    "threshold": 0.35,
+    "accuracy": 0.95,
+    "avg_cost": 0.000321,
+    "total_fallback_count": 7
+  },
+  {
+    "threshold": 0.5,
+    "accuracy": 0.95,
+    "avg_cost": 0.000332,
+    "total_fallback_count": 11
+  },
+  {
+    "threshold": 0.65,
+    "accuracy": 0.96,
+    "avg_cost": 0.000363,
+    "total_fallback_count": 21
+  },
+  {
+    "threshold": 0.8,
+    "accuracy": 0.97,
+    "avg_cost": 0.000403,
+    "total_fallback_count": 30
+  },
+  {
+    "threshold": 0.95,
+    "accuracy": 0.97,
+    "avg_cost": 0.000554,
+    "total_fallback_count": 59
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "pareto_optimal_threshold": 0.8,
+  "justification": "Threshold 0.8 represents the Pareto-optimal operating point on the accuracy-cost frontier. At this threshold, the gateway routes routine arithmetic, revenue, FAQ, and simple queries to deterministic tools and small models (minimizing cost), while reliably escalating ambiguous or complex reasoning queries to the large LLM, achieving an optimal balance between accuracy (97.0%) and average cost ($0.000403/query).",
+  "misroute_example": {
+    "query": "What is the smallest prime number?",
+    "expected_path": "small_llm",
+    "actual_path": "large_llm",
+    "reasoning": "At threshold 0.35, the query's similarity (0.3284) to 'fallback' exceeded the cutoff, misrouting it to 'large_llm' instead of 'small_llm'."
+  }
+}
