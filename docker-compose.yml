@@ -1,0 +1,22 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: semantic_router_api
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_NAME=all-MiniLM-L6-v2
+      - DEFAULT_THRESHOLD=0.65
+      - DATABASE_PATH=/app/data/revenue.db
+      - PORT=8000
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
