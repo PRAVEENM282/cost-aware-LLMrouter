@@ -1,0 +1,502 @@
+[
+  {
+    "query": "What is 24 * 193?",
+    "expected_category": "arithmetic",
+    "ground_truth": "4632"
+  },
+  {
+    "query": "Calculate 15 + 27",
+    "expected_category": "arithmetic",
+    "ground_truth": "42"
+  },
+  {
+    "query": "What is 100 - 45?",
+    "expected_category": "arithmetic",
+    "ground_truth": "55"
+  },
+  {
+    "query": "What is 144 / 12?",
+    "expected_category": "arithmetic",
+    "ground_truth": "12"
+  },
+  {
+    "query": "Compute 35 * 4",
+    "expected_category": "arithmetic",
+    "ground_truth": "140"
+  },
+  {
+    "query": "What is 250 + 750?",
+    "expected_category": "arithmetic",
+    "ground_truth": "1000"
+  },
+  {
+    "query": "Evaluate 99 * 3",
+    "expected_category": "arithmetic",
+    "ground_truth": "297"
+  },
+  {
+    "query": "What is 512 / 8?",
+    "expected_category": "arithmetic",
+    "ground_truth": "64"
+  },
+  {
+    "query": "Calculate 87 - 39",
+    "expected_category": "arithmetic",
+    "ground_truth": "48"
+  },
+  {
+    "query": "What is 16 * 16?",
+    "expected_category": "arithmetic",
+    "ground_truth": "256"
+  },
+  {
+    "query": "What is 10 + 10?",
+    "expected_category": "arithmetic",
+    "ground_truth": "20"
+  },
+  {
+    "query": "Compute 1200 / 30",
+    "expected_category": "arithmetic",
+    "ground_truth": "40"
+  },
+  {
+    "query": "Calculate 48 + 53",
+    "expected_category": "arithmetic",
+    "ground_truth": "101"
+  },
+  {
+    "query": "What is 17 * 5?",
+    "expected_category": "arithmetic",
+    "ground_truth": "85"
+  },
+  {
+    "query": "Evaluate 1000 - 325",
+    "expected_category": "arithmetic",
+    "ground_truth": "675"
+  },
+  {
+    "query": "What is 72 / 9?",
+    "expected_category": "arithmetic",
+    "ground_truth": "8"
+  },
+  {
+    "query": "Compute 65 * 6",
+    "expected_category": "arithmetic",
+    "ground_truth": "390"
+  },
+  {
+    "query": "What is 81 + 19?",
+    "expected_category": "arithmetic",
+    "ground_truth": "100"
+  },
+  {
+    "query": "Calculate 300 / 15",
+    "expected_category": "arithmetic",
+    "ground_truth": "20"
+  },
+  {
+    "query": "What is 125 * 8?",
+    "expected_category": "arithmetic",
+    "ground_truth": "1000"
+  },
+  {
+    "query": "What was our Q1 2023 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$3.8M"
+  },
+  {
+    "query": "What was our Q2 2023 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.1M"
+  },
+  {
+    "query": "What was our Q3 2023 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.2M"
+  },
+  {
+    "query": "What was our Q4 2023 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.5M"
+  },
+  {
+    "query": "What was our Q1 2024 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.7M"
+  },
+  {
+    "query": "What was our Q2 2024 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$5.0M"
+  },
+  {
+    "query": "What was our Q3 2024 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$5.3M"
+  },
+  {
+    "query": "What was our Q4 2024 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$5.6M"
+  },
+  {
+    "query": "Show quarterly revenue for Q3 2023",
+    "expected_category": "revenue",
+    "ground_truth": "$4.2M"
+  },
+  {
+    "query": "Get Q1 2023 revenue numbers",
+    "expected_category": "revenue",
+    "ground_truth": "$3.8M"
+  },
+  {
+    "query": "Retrieve company revenue for Q2 2023",
+    "expected_category": "revenue",
+    "ground_truth": "$4.1M"
+  },
+  {
+    "query": "What did we make in Q4 2023 revenue?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.5M"
+  },
+  {
+    "query": "Report revenue figures for Q1 2024",
+    "expected_category": "revenue",
+    "ground_truth": "$4.7M"
+  },
+  {
+    "query": "Display revenue for Q2 2024",
+    "expected_category": "revenue",
+    "ground_truth": "$5.0M"
+  },
+  {
+    "query": "Check Q3 2024 revenue",
+    "expected_category": "revenue",
+    "ground_truth": "$5.3M"
+  },
+  {
+    "query": "Find the revenue recorded in Q4 2024",
+    "expected_category": "revenue",
+    "ground_truth": "$5.6M"
+  },
+  {
+    "query": "Q3 2023 Revenue",
+    "expected_category": "revenue",
+    "ground_truth": "$4.2M"
+  },
+  {
+    "query": "Quarterly revenue report for Q1 2024",
+    "expected_category": "revenue",
+    "ground_truth": "$4.7M"
+  },
+  {
+    "query": "How much revenue was generated in Q2 2023?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.1M"
+  },
+  {
+    "query": "What is our recorded revenue for Q4 2023?",
+    "expected_category": "revenue",
+    "ground_truth": "$4.5M"
+  },
+  {
+    "query": "What is your refund policy?",
+    "expected_category": "faq",
+    "ground_truth": "30-day money-back guarantee"
+  },
+  {
+    "query": "How do I reset my password?",
+    "expected_category": "faq",
+    "ground_truth": "Forgot Password"
+  },
+  {
+    "query": "What are your business hours?",
+    "expected_category": "faq",
+    "ground_truth": "Monday through Friday"
+  },
+  {
+    "query": "Where are your headquarters located?",
+    "expected_category": "faq",
+    "ground_truth": "San Francisco"
+  },
+  {
+    "query": "How can I contact customer support?",
+    "expected_category": "faq",
+    "ground_truth": "support@example.com"
+  },
+  {
+    "query": "Do you ship internationally?",
+    "expected_category": "faq",
+    "ground_truth": "ship to over 50 countries"
+  },
+  {
+    "query": "What payment methods do you accept?",
+    "expected_category": "faq",
+    "ground_truth": "credit cards, PayPal"
+  },
+  {
+    "query": "How do I track my order?",
+    "expected_category": "faq",
+    "ground_truth": "tracking number"
+  },
+  {
+    "query": "Can I cancel my subscription anytime?",
+    "expected_category": "faq",
+    "ground_truth": "cancel your subscription at any time"
+  },
+  {
+    "query": "Is my personal data secure?",
+    "expected_category": "faq",
+    "ground_truth": "end-to-end encryption"
+  },
+  {
+    "query": "Can I get a refund for my purchase?",
+    "expected_category": "faq",
+    "ground_truth": "30-day money-back guarantee"
+  },
+  {
+    "query": "I forgot my password how to recover it?",
+    "expected_category": "faq",
+    "ground_truth": "Forgot Password"
+  },
+  {
+    "query": "When is customer service open?",
+    "expected_category": "faq",
+    "ground_truth": "Monday through Friday"
+  },
+  {
+    "query": "Where is the company headquartered?",
+    "expected_category": "faq",
+    "ground_truth": "San Francisco"
+  },
+  {
+    "query": "What is customer support email?",
+    "expected_category": "faq",
+    "ground_truth": "support@example.com"
+  },
+  {
+    "query": "Do you offer international shipping?",
+    "expected_category": "faq",
+    "ground_truth": "ship to over 50 countries"
+  },
+  {
+    "query": "Can I pay with credit card or PayPal?",
+    "expected_category": "faq",
+    "ground_truth": "credit cards, PayPal"
+  },
+  {
+    "query": "Where can I find my package tracking?",
+    "expected_category": "faq",
+    "ground_truth": "tracking number"
+  },
+  {
+    "query": "How to cancel my paid plan?",
+    "expected_category": "faq",
+    "ground_truth": "cancel your subscription at any time"
+  },
+  {
+    "query": "How do you protect my private information?",
+    "expected_category": "faq",
+    "ground_truth": "end-to-end encryption"
+  },
+  {
+    "query": "What is the capital of France?",
+    "expected_category": "general_simple",
+    "ground_truth": "Paris"
+  },
+  {
+    "query": "Who wrote Romeo and Juliet?",
+    "expected_category": "general_simple",
+    "ground_truth": "William Shakespeare"
+  },
+  {
+    "query": "What is the boiling point of water in Celsius?",
+    "expected_category": "general_simple",
+    "ground_truth": "100"
+  },
+  {
+    "query": "What is the chemical symbol for gold?",
+    "expected_category": "general_simple",
+    "ground_truth": "Au"
+  },
+  {
+    "query": "How many continents are there on Earth?",
+    "expected_category": "general_simple",
+    "ground_truth": "7"
+  },
+  {
+    "query": "Which planet is known as the Red Planet?",
+    "expected_category": "general_simple",
+    "ground_truth": "Mars"
+  },
+  {
+    "query": "What is the primary language spoken in Brazil?",
+    "expected_category": "general_simple",
+    "ground_truth": "Portuguese"
+  },
+  {
+    "query": "Translate 'hello' into Spanish",
+    "expected_category": "general_simple",
+    "ground_truth": "hola"
+  },
+  {
+    "query": "Who painted the Mona Lisa?",
+    "expected_category": "general_simple",
+    "ground_truth": "Leonardo da Vinci"
+  },
+  {
+    "query": "What is the largest ocean on Earth?",
+    "expected_category": "general_simple",
+    "ground_truth": "Pacific"
+  },
+  {
+    "query": "In which year did World War II end?",
+    "expected_category": "general_simple",
+    "ground_truth": "1945"
+  },
+  {
+    "query": "What is the hardest natural mineral?",
+    "expected_category": "general_simple",
+    "ground_truth": "Diamond"
+  },
+  {
+    "query": "Which gas do plants absorb during photosynthesis?",
+    "expected_category": "general_simple",
+    "ground_truth": "carbon dioxide"
+  },
+  {
+    "query": "What is the official currency of Japan?",
+    "expected_category": "general_simple",
+    "ground_truth": "Yen"
+  },
+  {
+    "query": "Who is credited with inventing the telephone?",
+    "expected_category": "general_simple",
+    "ground_truth": "Alexander Graham Bell"
+  },
+  {
+    "query": "What is the smallest prime number?",
+    "expected_category": "general_simple",
+    "ground_truth": "2"
+  },
+  {
+    "query": "On which continent is the Sahara Desert located?",
+    "expected_category": "general_simple",
+    "ground_truth": "Africa"
+  },
+  {
+    "query": "What is the primary element composing the sun?",
+    "expected_category": "general_simple",
+    "ground_truth": "hydrogen"
+  },
+  {
+    "query": "What is the capital of Japan?",
+    "expected_category": "general_simple",
+    "ground_truth": "Tokyo"
+  },
+  {
+    "query": "How many days are in a leap year?",
+    "expected_category": "general_simple",
+    "ground_truth": "366"
+  },
+  {
+    "query": "Analyze the macroeconomic impact of inflation on global supply chain logistics.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "supply chain, inflation, monetary policy, cost pressures"
+  },
+  {
+    "query": "Compare and contrast the philosophical frameworks of existentialism and stoicism regarding human agency.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "existentialism, stoicism, agency, deterministic, meaning"
+  },
+  {
+    "query": "Perform a multi-criteria architectural evaluation of microservices versus monolithic systems under high concurrency.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "microservices, monolith, latency, network overhead, consistency"
+  },
+  {
+    "query": "Explain the theoretical foundations and limitations of Godel's Incompleteness Theorems in mathematical logic.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "incompleteness, formal systems, self-reference, consistency"
+  },
+  {
+    "query": "Formulate a comprehensive market entry strategy for an enterprise SaaS startup in healthcare.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "regulatory compliance, HIPAA, sales cycles, enterprise integration"
+  },
+  {
+    "query": "Evaluate the tradeoffs between Paxos and Raft distributed consensus protocols in distributed storage systems.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "consensus, Raft, Paxos, leader election, log replication"
+  },
+  {
+    "query": "Synthesize the ethical and governance dilemmas surrounding autonomous weapon systems under international humanitarian law.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "autonomous weapons, accountability, Geneva Conventions, human control"
+  },
+  {
+    "query": "Provide a structural breakdown of zero-knowledge proofs and their cryptographic scaling potential in Layer 2 blockchains.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "zero-knowledge, cryptographic, zk-SNARKs, rollup, scalability"
+  },
+  {
+    "query": "Critique the methodology and potential selection bias of randomized controlled trials versus observational studies in epidemiology.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "randomized controlled, confounding, observational, causal inference"
+  },
+  {
+    "query": "Develop an incident response and disaster recovery plan for a multi-region ransomware attack.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "ransomware, disaster recovery, isolation, immutable backups, failover"
+  },
+  {
+    "query": "Calculate the macroeconomic implications and strategic financial risk distribution across supply chain disruptions.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "macroeconomic, financial risk, supply chain, diversification"
+  },
+  {
+    "query": "Assess the geopolitical ramifications of rare earth element supply chain monopolies on semiconductor production.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "rare earth, semiconductor, geopolitics, export controls, supply chain"
+  },
+  {
+    "query": "Analyze how transformers overcome the vanishing gradient problem compared to recurrent neural networks.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "self-attention, vanishing gradient, parallelization, residual connections"
+  },
+  {
+    "query": "Design a high-throughput stream processing pipeline using event-sourcing and CQRS architectures.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "event sourcing, CQRS, eventual consistency, Kafka, partitioning"
+  },
+  {
+    "query": "Contrast classical Newtonian mechanics with general relativity in the context of gravitational time dilation.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "spacetime curvature, gravitational time dilation, general relativity, equivalence principle"
+  },
+  {
+    "query": "Examine the systemic financial risks posed by shadow banking and non-bank financial intermediaries.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "systemic risk, shadow banking, liquidity mismatch, regulatory oversight"
+  },
+  {
+    "query": "Deconstruct the cognitive biases that lead to groupthink in high-stakes corporate executive decisions.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "groupthink, confirmation bias, conformity, psychological safety"
+  },
+  {
+    "query": "Evaluate the viability of fusion energy commercialization within magnetic confinement tokamak designs.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "tokamak, magnetic confinement, plasma stability, net energy gain, tritium breeding"
+  },
+  {
+    "query": "Compare monotonic versus non-monotonic reasoning paradigms in artificial intelligence knowledge representation.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "monotonic, non-monotonic, default logic, belief revision, axioms"
+  },
+  {
+    "query": "Draft a multi-tiered legal and data governance risk assessment for enterprise cross-border data transfers under GDPR.",
+    "expected_category": "complex_reasoning",
+    "ground_truth": "GDPR, cross-border, standard contractual clauses, adequacy decision, risk assessment"
+  }
+]
